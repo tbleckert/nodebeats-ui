@@ -5,7 +5,8 @@ This is a simple demo to give you an example of how to work with the nodebeats s
 ## Get started
 1. Download this source (or fork it)
 2. Copy config.example.json to config.json and edit.
-3. `node server.js` or `pm2 start ecosystem.json` if you're using pm2
+3. Add your services to config.json
+4. `node server.js` or `pm2 start ecosystem.json` if you're using pm2
 
 ## Development
 1. `npm install`
