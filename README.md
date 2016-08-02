@@ -2,6 +2,8 @@
 
 This is a simple demo to give you an example of how to work with the nodebeats server. I am using React here but you can of course break this apart and build your own UI. The important bits are the API and websockets interaction.
 
+![](https://dl.dropboxusercontent.com/u/6306766/nodebeats.png)
+
 ## Get started
 1. Download this source (or fork it)
 2. Copy config.example.json to config.json and edit.
