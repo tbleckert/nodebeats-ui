@@ -34728,6 +34728,8 @@ window.onload = function () {
         return document.head.appendChild(m);
     });
 
+    document.head.appendChild((0, _dom.tag)('title')('Nodebeats UI demo'));
+
     document.body.style.margin = '0';
     document.body.style.padding = '0';
     document.body.appendChild(html);

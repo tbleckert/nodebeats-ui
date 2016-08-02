@@ -39,6 +39,8 @@ window.onload = () => {
     document.body.style.opacity = 0;
     meta.forEach(m => document.head.appendChild(m));
 
+    document.head.appendChild(tag('title')('Nodebeats UI demo'));
+
     document.body.style.margin = '0';
     document.body.style.padding = '0';
     document.body.appendChild(html);
