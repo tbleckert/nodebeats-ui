@@ -1,0 +1,19 @@
+{
+    "url": "http://node.app:8080",
+    "assetVersion": "1.0.0",
+    "port": 8081,
+    "services": [
+        {
+            "name": "Service 1",
+            "slug": "service-1",
+            "warnAfter": 30,
+            "deadAfter": 60
+        },
+        {
+            "name": "Service 2",
+            "slug": "service-2",
+            "warnAfter": 120,
+            "deadAfter": 240
+        }
+    ]
+}
